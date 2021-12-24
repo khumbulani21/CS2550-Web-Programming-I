@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<title>Game Grid</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<script src="model.js"></script>
+<script src="view.js"></script>
+</head>
+
+<body  id="x" >
+
+<h1>Player selection page</h1>
+<a href="index.html" > Home </a> 
+<br>
+<a href="documentation.html" > Documentation </a> 
+<br>
+<br>
+<!-- options for checker pieces-->
+
+<br>
+<br>
+<audio id="myAudio">
+
+<source src="test.mp3" type="audio/mpeg"></source>
+</audio>
+<button id="play" onclick="playSound()">Play audio</button>
+<button id="stop" onclick="pauseSound()">Pause audio</button>
+<br>
+<br>
+
+
+<p>Enter player names</p>
+<label>Player 1 name  </label>
+<input type="text" id ="name1"/>
+<br>
+<label>Player 2 name  </label>
+<input type="text" id ="name2"/>
+<br>
+<br>
+
+<button id="save" onclick="getInput()">Save</button>
+
+
+</div>
+<br>
+<br>
+
+
+<div id="grid">  </div>
+
+
+
+<p> <small>Copyright &copy; kndlovu</small> </p>
+
+</body>
+</html>

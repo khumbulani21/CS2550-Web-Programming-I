@@ -1,0 +1,74 @@
+<html>
+
+<head>
+<title>Project progress</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="view2.js"></script>
+<script src="model.js"></script>
+</head>
+
+
+
+<body onload="showGrid()">
+<a href="gameGrid.html" > Game grid</a> 
+<h3>Player</h3>
+<p>
+A player object will have a player number, the number of moves made and checkers left properties <br>
+<ul>
+<li>numberOfMoves</li>
+<li>number – 1 or 2</li>
+<li>checkersLeft – a number in the range of 0 to 12</li>
+
+<li>getNumMoves() function to get the number of moves</li>
+<li>getPlayer() function to get a player number</li>
+<li>getCheckersLeft() function to get the number of checkers left</li>
+<ul>
+<p>
+<h3>Checker<h3>
+<p>
+<ul>
+<li>checkerNumber- each checker will be assigned a number</li>
+<li>position – the position of the checker on the board</li>
+<li>king – a boolean value true for king and false for not a king</li>
+<li>moves – array for the possible moves a checker has</li>
+<li>Functions for Checker</li>
+<li>getPosition() function to get the position of a checker on the board</li>
+<li>getCheckerNum() function to get the number allocated to a checker</li>
+<li>isKing() – function to check if a checker is a king </li>
+<li>getMoves() function to check moves that can be made by a checker </li>
+</ul>
+</p>
+<h3>Game<h3>
+<p>
+<ul>
+<li>Player – player object for each player in the game </li>
+<li>Checker – checker object </li>
+<li>Winner – number for the winning player </li>
+<li>Captured- number to keep count of the captured checkers </li>
+<li>Grid – array for the game grid </li>
+<li>Next- number for the next player to make a move </li>
+<li>gameOver – Boolean for checking if game is over </li>
+<li>Functions </li>
+<li>getCell() function to get the contents of a cell</li> 
+<li>moveChecker()- function for moving a checker </li>
+<li>capture() – function to capture a checker </li>
+<ul>
+
+<h1>Progress</h1>
+</p>
+
+I have managed to develop the game grid and position the checkers in their initial positions. Input components have been added to the game grid web page for user to be able enter the player names and the checkers have color setup. Variables and functions for a checker have been added to the model javascript file. I still have to add the checker functionality into the game grid. The getCell() method for getting a clicked cell has been implemented.
+Instructions
+To be able to view the game board being reset to its initial state I added a button to create a new game.To be able to view the board being reset click on a number of cells then click on new game and it will reset the game board showing the initial state.  
+To check the implementation of the getCell() method click on any cell and it should display the cell number that has been clicked.Clicking on a cell will higlight the cell with the checker the user wants to move and the functionality will be implemented later.
+
+<br>
+
+
+<p>
+</p>
+
+
+<div id="grid">  </div>
+</body>
+</html>

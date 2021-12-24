@@ -1,0 +1,89 @@
+table
+{
+	border:solid 1pt black;
+	border-collapse:collapse;
+	width:40%;
+	height:80%;
+	text-align:center;
+background-color:blue;
+}
+
+#table1
+{
+	border:solid 1pt black;
+	border-collapse:collapse;
+	width:40%;
+	height:80%;
+	text-align:center;
+	background-color:blue;
+}
+
+
+td
+{
+	border:solid 1pt black;
+}
+
+.blackSquare {background-color: black;}
+.whiteSquare {background-color: white;}
+.player2
+{
+	display:inline-block;
+	background-color:green;
+	width:50%;
+	height:50%;
+	border-radius:50px;
+	
+}
+.player1
+{
+	display:inline-block;
+	background-color:red;
+	width:50%;
+	height:50%;
+	border-radius:50px;
+
+
+	
+}
+.king2
+{
+        display:inline-block;
+	background-color:rgb(0,255,100);
+	width:50%;
+	height:50%;
+	border-radius:50px;
+}
+.king1
+{
+        display:inline-block;
+	background-color:rgb(255,100,0);
+	width:50%;
+	height:50%;
+	border-radius:50px;
+}
+
+#cop
+{
+color:red;
+}
+
+#animate{
+   background-color:red;
+	width:10%;
+	height:10%;
+	position: absolute;
+	border-radius:50px;
+}
+
+
+#container {
+  width: 500px;
+  height: 500px;
+  position: relative; 
+background-color:yellow;
+  
+}
+
+
+

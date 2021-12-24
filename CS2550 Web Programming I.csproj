@@ -1,0 +1,97 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{5672000F-5569-4F0B-9300-1798A2A700C2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>CS2550_Web_Programming_I</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assignment1\assignment1\checkers.jpg" />
+    <Content Include="assignment1\assignment1\grid.html" />
+    <Content Include="assignment1\assignment1\index.html" />
+    <Content Include="assignment1\assignment1\style.css" />
+    <Content Include="assignment2\assignment2\game grid.html" />
+    <Content Include="assignment2\assignment2\grid.js" />
+    <Content Include="assignment2\assignment2\style.css" />
+    <Content Include="assignment3\assignment3\checkers.jpg" />
+    <Content Include="assignment3\assignment3\game grid.html" />
+    <Content Include="assignment3\assignment3\index.html" />
+    <Content Include="assignment3\assignment3\model.js" />
+    <Content Include="assignment3\assignment3\style.css" />
+    <Content Include="assignment3\assignment3\view.js" />
+    <Content Include="assignment4\assignment4\animation.js" />
+    <Content Include="assignment4\assignment4\checkpoint.html" />
+    <Content Include="assignment4\assignment4\gamegrid.html" />
+    <Content Include="assignment4\assignment4\model.js" />
+    <Content Include="assignment4\assignment4\style.css" />
+    <Content Include="assignment4\assignment4\view.js" />
+    <Content Include="assignment4\assignment4\view2.js" />
+    <Content Include="assignment5-1\assignment5\checkers.jpg" />
+    <Content Include="assignment5-1\assignment5\grid.html" />
+    <Content Include="assignment5-1\assignment5\index.html" />
+    <Content Include="assignment5-1\assignment5\script.js" />
+    <Content Include="assignment5-1\assignment5\style.css" />
+    <Content Include="assignment5-1\assignment5\style.js" />
+    <Content Include="assignment6 %282%29\assignment6\cells.xml" />
+    <Content Include="assignment6 %282%29\assignment6\checkers.jpg" />
+    <Content Include="assignment6 %282%29\assignment6\game grid.html" />
+    <Content Include="assignment6 %282%29\assignment6\model.js" />
+    <Content Include="assignment6 %282%29\assignment6\readme.txt" />
+    <Content Include="assignment6 %282%29\assignment6\style.css" />
+    <Content Include="assignment6 %282%29\assignment6\view.js" />
+    <Content Include="Final project K Ndlovu\Final project K Ndlovu\checkers.jpg" />
+    <Content Include="Final project K Ndlovu\Final project K Ndlovu\documentation.html" />
+    <Content Include="Final project K Ndlovu\Final project K Ndlovu\gamegrid.html" />
+    <Content Include="Final project K Ndlovu\Final project K Ndlovu\index.html" />
+    <Content Include="Final project K Ndlovu\Final project K Ndlovu\model.js" />
+    <Content Include="Final project K Ndlovu\Final project K Ndlovu\playerSelection.html" />
+    <Content Include="Final project K Ndlovu\Final project K Ndlovu\style.css" />
+    <Content Include="Final project K Ndlovu\Final project K Ndlovu\test.mp3" />
+    <Content Include="Final project K Ndlovu\Final project K Ndlovu\view.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assignment4\assignment4\Project check point.docx" />
+    <None Include="assignment4\assignment4\~%24oject check point.docx" />
+    <None Include="assignment4\assignment4\~WRL0048.tmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

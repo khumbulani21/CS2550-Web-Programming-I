@@ -1,0 +1,72 @@
+<html>
+
+<head>
+<title>Game Grid</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="view.js"></script>
+<script src="model.js"></script>
+
+</head>
+
+<body >
+<a href="index.html" > Home </a> 
+<h1>Model</h1>
+
+<p> 
+The model is mainly made up of the game grid which is the array that will be manipulated by the view to move the checkers. 
+</p>
+<h2>Functions</h2>
+<div>
+getSquare()- retrives the value stored in a particular cell<br>
+getNewGame()- generates a new game<br>
+setSquare(row, column, newValue)- sets a new value in the grid array mainly used whan moving checkers<br>
+removeForKing(rowG,direction)- captures chackers for kings<br>
+
+
+
+
+
+</div>
+
+<h2>View</h2>
+<div>
+showGrid()-displays game grid on the game page<br>
+gameEngine()- responsible for moving checkers, capturing checkers and marking game grid with possible moves<br>
+genGrid()-uses javascript to generate html<br>
+setClicks()- for setting clicks for the game grid<br>
+promoteToKing()-promotes checker to king<br>
+removeForKing(destinationRow,destinationColumn, direction)-captures checkers for a king checker<br>
+playSound()- uses javascript to play sound specified in the audio tag.<br>
+writeToCanvas()-writes a message to a canvas<br>
+getInput()-gets player names from user<br>
+countClicks()- counts the number of clicks so as to be able to color cells.<br>
+
+
+</div>
+<h2>Satisfaction of requirements</h2>
+<div>
+The game uses javascript to load the game grid and set up the game. <br>
+Players are able to enter their names which are then stored in local storage and used to indicate which player has won the game. Each player is also assigned a color<br>
+Kings are able to move foward and backwards also capturing checkers in their moves. Kings are distinguished by their color which is different from ordinary checkers.<br>
+Html5- I added audio to play sound in the background hen the game is being played. I also used canvas to print out some information about the game that is useful for players.<br>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+<div id="myCanvas">  </div>
+
+
+
+
+<p> <small>Copyright &copy; kndlovu</small> </p>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<cells>
+
+<cell name="playerOne"><row>0</row><column>0</column></cell>
+<cell name="playerOne"><row>0</row><column>2</column></cell>
+<cell name="playerOne"><row>0</row><column>4</column></cell>
+<cell name="playerOne"><row>0</row><column>6</column></cell>
+
+<cell name="playerOne"><row>1</row><column>1</column></cell>
+<cell name="playerOne"><row>1</row><column>3</column></cell>
+<cell name="playerOne"><row>1</row><column>5</column></cell>
+<cell name=""><row>1</row><column>7</column></cell>
+
+<cell name=""><row>2</row><column>0</column></cell>
+<cell name=""><row>2</row><column>2</column></cell>
+<cell name=""><row>2</row><column>4</column></cell>
+<cell name="playerOne"><row>2</row><column>6</column></cell>
+
+<cell name=""><row>3</row><column>1</column></cell>
+<cell name=""><row>3</row><column>3</column></cell>
+<cell name=""><row>3</row><column>5</column></cell>
+<cell name=""><row>3</row><column>7</column></cell>
+
+<cell name=""><row>4</row><column>0</column></cell>
+<cell name=""><row>4</row><column>2</column></cell>
+<cell name=""><row>4</row><column>4</column></cell>
+<cell name=""><row>4</row><column>6</column></cell>
+
+<cell name="playerTwo"><row>5</row><column>1</column></cell>
+<cell name=""><row>5</row><column>3</column></cell>
+<cell name=""><row>5</row><column>5</column></cell>
+<cell name=""><row>5</row><column>7</column></cell>
+
+<cell name=""><row>6</row><column>0</column></cell>
+<cell name="playerTwo"><row>6</row><column>2</column></cell>
+<cell name="playerTwo"><row>6</row><column>4</column></cell>
+<cell name="playerTwo"><row>6</row><column>6</column></cell>
+
+<cell name="playerTwo"><row>7</row><column>1</column></cell>
+<cell name="playerTwo"><row>7</row><column>3</column></cell>
+<cell name="playerTwo"><row>7</row><column>5</column></cell>
+<cell name="playerTwo"><row>7</row><column>7</column></cell>
+
+</cells>

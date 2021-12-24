@@ -1,0 +1,146 @@
+<html>
+	<header>
+			<nav>
+
+				<ul>
+					<li> <a href="index.html" > Home</a></li>
+					<li>   <a href="https://en.wikipedia.org/wiki/Draughts" target="_blank"> Detailed description</a> </li>
+					<li>   <a href="http://www.usacheckers.com/" target="_blank"> USA checkers association </a> </li>
+				</ul>
+			</nav>
+		<link rel="stylesheet" href="style.css">
+
+	</header>
+<body>
+		
+	<main>
+		<h1>Game grid</h1>
+		
+
+<!--player one is represented by the green circles whilst player 2 uses the red circles-->
+
+	<p invinsible:true>
+		<table >
+				<caption> Checkers game grid </caption>
+				
+				<tr>  
+					<td  class="black" > <div class="player2"> </td>
+					<td >  </td>
+					<td class="black" > <div class="player2"> </td>
+					<td > </td>
+					<<td class="black" > <div class="player2"> </td>
+					<td > </td>
+					<td  class="black"><div class="player2"> </td>
+					<td > </td>
+				</tr>
+				
+				<tr>  
+					<td > </td>
+					<td  class="black"> <div class="player2"></td>
+					<td > </td>
+					<td  class="black"> <div class="player2"> </td>
+					<<td > </td>
+					<td  class="black"> <div class="player2"> </td>
+					<td > </td>
+					<td  class="black"> <div class="player2"> </td>
+				</tr>
+				
+				<tr>  
+					<td class="black"> </td>
+					<td > </td>
+					<td  class="black"> <div class="player2"></td>
+					<td > </td>
+					<<td class="black" > <div class="player2"></td>
+					<td > </td>
+					<td  class="black"> </td>
+					<td > </td>
+				</tr>
+				
+				<tr>  
+					<td > </td>
+					<td  class="black"> <div class="player2"> </td>
+					<td > </td>
+					<td  class="black"> </td>
+					<td > </td>
+					<td class="black"> </td>
+					<td > </td>
+					<td  class="black"><div class="player2"> </td>
+				</tr>
+				
+				<tr>  
+					<td class="black"><div class="player1"> </td>
+					<td > </td>
+					<td  class="black"> </td>
+					<td > </td>
+					<<td class="black" > </td>
+					<td > </td>
+					<td  class="black"> <div class="player1"></td>
+					<td > </td>
+				</tr>
+				
+				<tr>  
+					<td > </td>
+					<td  class="black"> </td>
+					<td > </td>
+					<td  class="black"><div class="player1"> </td>
+					<<td > </td>
+					<td  class="black"> <div class="player1"></td>
+					<td > </td>
+					<td  class="black"> </td>
+				</tr>
+				
+				<tr>  
+					<td class="black"> <div class="player1"></td>
+					<td > </td>
+					<td  class="black"> <div class="player1"></td>
+					<td > </td>
+					<<td class="black"><div class="player1"> </td>
+					<td > </td>
+					<td  class="black"><div class="player1"> </td>
+					<td > </td>
+				</tr>
+	
+		
+				<tr>  
+					<td > </td>
+					<td class="black"><div class="player1"> </td>
+					<td > </td>
+					<td  class="black"><div class="player1"> </td>
+					<<td > </td>
+					<td  class="black"> <div class="player1"></td>
+					<td > </td>
+					<td  class="black"> <div class="player1"></td>
+				</tr>
+
+		</table>
+
+		<hr>
+		<!--the grid is represented in the array from top to bottom -->
+
+		<pre>
+
+
+			gameState: 
+				   {
+   					"grid": [ [2, 0, 2, 0, 2, 0, 2, 0], [2, 0, 2, 0, 2, 0, 2, 0], 
+ 						  [0, 0, 2, 0, 2, 0, 0 ,0], [0, 2, 0, 0, 0, 0, 0, 2],
+						  [1, 0, 0, 0, 1, 0, 1, 0], [0, 0, 0, 1 , 0, 1, 0, 0],
+						  [1, 0, 1, 0, 1, 0, 1, 0], [0, 1, 0, 1, 0, 1, 0, 1]],
+
+   					"turn": 1,
+  					"gameOver ": false
+					
+
+				   }
+
+		</pre>
+	</p>
+
+
+
+		</main>
+
+ 
+			<p id="cop"> <small>Copyright &copy; kndlovu</small> </p>
+	</body>
+</html>

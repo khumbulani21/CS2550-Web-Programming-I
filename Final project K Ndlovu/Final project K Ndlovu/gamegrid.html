@@ -1,0 +1,37 @@
+<html>
+
+<head>
+<title>Game Grid</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="view.js"></script>
+<script src="model.js"></script>
+
+</head>
+
+<body  id="x" onload="showGrid()">
+<a href="index.html" > Home page </a> 
+<br>
+<br>
+<audio id="myAudio">
+
+<source src="test.mp3" type="audio/mpeg"></source>
+</audio>
+<button id="play" onclick="playSound()">Play audio</button>
+<button id="stop" onclick="pauseSound()">Pause audio</button>
+<br>
+<br>
+<h1>Game grid</h1>
+
+
+<canvas id="myCanvas" width="1000" height="100" style="border:1px solid #000000;">Canvas</canvas>
+
+
+<p> Checkers for Green checkers is light green and for red checkers is orange. When you click on a cell it will highilgt possible moves in grey, these are the only possible moves. Players should alternate moves. </p>
+<div id="grid">  </div>
+
+
+
+<p> <small>Copyright &copy; kndlovu</small> </p>
+
+</body>
+</html>

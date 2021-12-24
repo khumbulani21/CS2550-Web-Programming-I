@@ -1,0 +1,81 @@
+<html>
+
+<head>
+<title>Game Grid</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="view.js"></script>
+<script src="model.js"></script>
+<script src="animation.js"></script>
+</head>
+
+<body onload="showGrid()" >
+
+<h1>Game grid</h1>
+<a href="checkpoint.html" > checkpoint </a> 
+<h2>Animation</h2>
+
+ <p>Click on the animate button to do the animation again.</p>
+  <button id"click"  onclick="moveCircle()" >Animate</button>
+ <br>
+  <br>
+
+<div id ="container" >
+<div id ="animate"></div>
+</div>
+
+<br>
+<br>
+<!-- options for checker pieces-->
+
+
+<select id="selection">
+
+<option value="red">Red</option>
+<option value="blue">Blue</option>
+<option value="green">Green</option>
+</select>
+<br>
+<br>
+
+
+
+ <br>
+ <br>
+
+<p>Row and cell clicked</p>
+  <label >Cell</label>
+  <label id ="cell"> </label>
+<br>
+  <label >Row</label>
+  <label id ="row"></label>
+<br>
+<br>
+
+
+
+<br>
+<br>
+<label>Player 1 name  </label>
+<input type="text" id ="name1"/>
+<br>
+<label>Player 2 name  </label>
+<input type="text" id ="name2"/>
+<br>
+<br>
+<button id="save" onclick="getInput()">Save</button>
+
+
+</div>
+<br>
+<br>
+<button id="newG" onClick="showGrid()">New Game</button>
+   <p> When clicked a cell will turn red</p>
+
+<div id="grid">  </div>
+
+
+
+<p> <small>Copyright &copy; kndlovu</small> </p>
+
+</body>
+</html>
